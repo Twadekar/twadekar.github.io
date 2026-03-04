@@ -15,17 +15,25 @@ letter-spacing:1px;
 nav{
 display:flex;
 justify-content:space-between;
+align-items:center;
 padding:20px 60px;
 background:#12182b;
 }
 
-nav a{
-color:#ccc;
-text-decoration:none;
-margin-left:20px;
+.logo{
+font-size:40px;
+font-weight:bold;
+color:#4fc3f7;
 }
 
-nav a:hover{
+.nav-links a{
+color:#ccc;
+text-decoration:none;
+margin-left:25px;
+font-size:18px;
+}
+
+.nav-links a:hover{
 color:#4fc3f7;
 }
 
