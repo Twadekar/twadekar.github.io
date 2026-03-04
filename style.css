@@ -186,7 +186,12 @@ gap:60px;
 
 
 
+.about-image img{
 
+width:100%;
+border-radius:8px;
+
+}
 
 
 .about-content h1{
