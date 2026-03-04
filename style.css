@@ -186,7 +186,7 @@ gap:60px;
 
 .about-image{
 width:100%;
-height:500px;
+height:400px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -199,7 +199,7 @@ object-fit:cover;
 border-radius:8px;
 }
 
-}
+
 
 .about-content h1{
 
