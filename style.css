@@ -1,447 +1,152 @@
 body{
+font-family: 'Segoe UI', sans-serif;
 margin:0;
-font-family:Arial,Helvetica,sans-serif;
-background:#081229;
-color:white;
-}
-/* NAVBAR */
-/* NAVBAR */
-
-.navbar{
-
-position:fixed;
-bottom:0;
-left:0;
-
-width:100%;
-
-background:#081229;
-
-display:flex;
-justify-content:space-between;
-align-items:center;
-
-padding:15px 80px;
-
-border-top:1px solid #233554;
-
-}
-
-.logo{
-
-color:#4fc3f7;
-font-size:18px;
-font-weight:600;
-
-}
-
-.nav-links{
-
-display:flex;
-list-style:none;
-margin:0;
-padding:0;
-
-}
-
-.nav-links li{
-
-margin-left:30px;
-
-}
-
-.nav-links a{
-
-text-decoration:none;
+background:#07132a;
 color:#e6f1ff;
-font-size:15px;
-
-transition:0.3s;
-
 }
 
-.nav-links a:hover{
-
-color:#4fc3f7;
-
+section{
+padding:80px 10%;
+animation:fadeUp 1s ease;
 }
 
-.logo{
-
-color:#4fc3f7;
-font-size:18px;
-font-weight:600;
-
-}
-
-.nav-links{
-
-display:flex;
-list-style:none;
-margin:0;
-padding:0;
-
-}
-
-.nav-links li{
-
-margin-left:30px;
-
-}
-
-.nav-links a{
-
-text-decoration:none;
-color:#e6f1ff;
-
-transition:0.3s;
-
-}
-
-.nav-links a:hover{
-
-color:#4fc3f7;
-
-}
-.logo{
-
-font-size:22px;
-font-weight:600;
-color:#4fc3f7;
-
-}
-
-.nav-links{
-
-display:flex;
-list-style:none;
-
-}
-
-.nav-links li{
-
-margin-left:30px;
-
-}
-
-.nav-links a{
-
-text-decoration:none;
-color:#e6f1ff;
-
-font-size:16px;
-
-transition:0.3s;
-
-}
-
-.nav-links a:hover{
-
-color:#4fc3f7;
-
-}
-/* HERO SECTION */
-
-.hero{
-padding:80px;
-max-width:900px;
-margin:auto;
-}
-
-/* TITLES */
-
-.top-title{
-letter-spacing:6px;
-font-weight:300;
-color:#cfd8dc;
-}
-
-.main-title{
-font-size:60px;
-font-weight:300;
-margin:10px 0;
-}
-
-.intro{
-color:#4fc3f7;
-letter-spacing:6px;
+h1{
+font-size:42px;
 margin-bottom:40px;
 }
 
-
-
-
-
-
-
-
-.page-nav{
-margin-top:60px;
+h2{
+color:#5ed3ff;
 }
 
-.next-btn, .back-btn{
-
-text-decoration:none;
-color:#4fc3f7;
-
-border:1px solid #4fc3f7;
-
-padding:10px 20px;
-
-margin-right:15px;
-
-border-radius:6px;
-
+p{
+line-height:1.7;
+color:#c9d6ff;
 }
 
-.next-btn:hover,
-.back-btn:hover{
+/* NAVBAR */
 
-background:#4fc3f7;
-color:#081229;
-
-}
-
-/* CHART LINES */
-
-.chart{
-position:relative;
-height:180px;
-margin-bottom:60px;
-border-bottom:1px solid #3c4c73;
-}
-
-.line{
-position:absolute;
-height:2px;
-background:#4fc3f7;
-}
-
-.line1{
+.navbar{
+position:fixed;
+bottom:0;
 width:100%;
-top:40px;
-background:#3c4c73;
-}
-
-.line2{
-width:100%;
-top:80px;
-background:#3c4c73;
-}
-
-.line3{
-width:100%;
-top:120px;
-background:#3c4c73;
-}
-
-.line4{
-width:100%;
-top:160px;
-background:#3c4c73;
-}
-
-/* TEXT SECTION */
-
-.name{
-font-size:36px;
-margin-bottom:5px;
-}
-
-.role{
-letter-spacing:5px;
-color:#4fc3f7;
-margin-bottom:20px;
-}
-
-.desc{
-max-width:600px;
-line-height:1.6;
-color:#d1d9ff;
-}
-
-
-/* ABOUT PAGE */
-
-.about-section{
-padding:100px;
 background:#081229;
-color:#d9e6ff;
-font-family:Arial, Helvetica, sans-serif;
-}
-
-.about-title{
-font-size:48px;
-margin-bottom:30px;
-}
-
-.about-text{
-font-size:18px;
-line-height:1.8;
-max-width:900px;
-margin-bottom:30px;
-color:#c7d6ff;
-}
-
-.career-box{
-
-border:1px solid #2c3b63;
-padding:20px;
-margin-top:40px;
-max-width:900px;
-border-radius:6px;
-
-color:#4fc3f7;
-letter-spacing:1px;
-
-background:#0b1738;
-
-}
-
-
-
-/* ABOUT PAGE */
-
-.about-container{
-
-background:#081229;
-color:#e6f1ff;
-padding:100px;
-
-}
-
-.about-grid{
-
-display:grid;
-grid-template-columns:1fr 1fr;
-align-items:center;
-gap:60px;
-
-}
-
-
-
-.about-image img{
-
-width:100%;
-height: 100%
-border-radius:8px;
-
-}
-
-
-.about-content h1{
-
-font-size:40px;
-margin-bottom:20px;
-
-}
-
-.about-content p{
-
-font-size:18px;
-line-height:1.8;
-color:#c7d6ff;
-margin-bottom:20px;
-
-}
-
-.career-box{
-
-margin-top:30px;
-border:1px solid #2c3b63;
+display:flex;
+justify-content:center;
+gap:40px;
 padding:18px;
-border-radius:6px;
-
-color:#4fc3f7;
-background:#0d1835;
-
+border-top:1px solid #233554;
 }
 
-
-
-
-/* SKILLS SECTION */
-
-.skills-section{
-
-background:#081229;
-padding:100px;
-color:white;
-
+.navbar a{
+color:#e6f1ff;
+text-decoration:none;
+font-size:15px;
+transition:.3s;
 }
 
-.skills-title{
-
-font-size:42px;
-margin-bottom:60px;
-
+.navbar a:hover{
+color:#5ed3ff;
 }
 
-.skills-grid{
+/* CARDS */
 
+.card{
+background:#0d1c3a;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+/* PROJECT */
+
+.project{
+display:grid;
+grid-template-columns:400px 1fr;
+gap:40px;
+margin-bottom:80px;
+align-items:center;
+}
+
+.project img{
+width:100%;
+border-radius:10px;
+}
+
+/* SKILLS BAR */
+
+.skill-bar{
+background:#0d1c3a;
+border-radius:10px;
+overflow:hidden;
+margin-bottom:15px;
+}
+
+.skill-fill{
+background:#5ed3ff;
+padding:8px;
+}
+
+/* DASHBOARD */
+
+.dashboard{
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:30px;
-
 }
 
-/* SKILL CARD */
-
-.skill-card{
-
-background:#0d1835;
-padding:35px;
+.dashboard img{
+width:100%;
 border-radius:10px;
-border:1px solid #2c3b63;
-
-transition:all 0.3s ease;
-
+transition:0.4s;
 }
 
-/* ICON */
-
-.skill-icon{
-
-width:60px;
-height:60px;
-
-background:#4fc3f7;
-border-radius:50%;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-font-size:26px;
-
-margin-bottom:20px;
-
-color:#081229;
-
+.dashboard img:hover{
+transform:scale(1.05);
 }
 
-/* TEXT */
+/* CONTACT */
 
-.skill-card h3{
-
-margin-bottom:10px;
-
+.contact{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
 }
 
-.skill-card p{
-
-color:#c7d6ff;
-line-height:1.6;
-
+.contact-box{
+background:#0d1c3a;
+padding:30px;
+border-radius:10px;
 }
 
-/* HOVER ANIMATION */
+/* ANIMATION */
 
-.skill-card:hover{
+@keyframes fadeUp{
+0%{
+opacity:0;
+transform:translateY(30px);
+}
 
-transform:translateY(-10px);
-box-shadow:0 15px 40px rgba(0,0,0,0.5);
-border-color:#4fc3f7;
+100%{
+opacity:1;
+transform:translateY(0);
+}
+}
 
+body{
+padding-bottom:80px;
 }
