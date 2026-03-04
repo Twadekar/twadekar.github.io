@@ -184,14 +184,12 @@ gap:60px;
 
 }
 
-.about-image{
-width:100%;
-height:200px;
-display:flex;
-align-items:center;
-justify-content:center;
+.about-image img{
+width:90%;
+height:100%;
+object-fit:cover;
+border-radius:8px;
 }
-
 
 
 
