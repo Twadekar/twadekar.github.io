@@ -1,79 +1,92 @@
 body{
-font-family:Arial,Helvetica,sans-serif;
 margin:0;
-background:#0b0f1a;
+font-family:Arial,Helvetica,sans-serif;
+background:#081229;
 color:white;
 }
 
-.logo{
-font-size:42px;
-font-weight:bold;
-color:#4fc3f7;
-letter-spacing:1px;
-}
+/* HERO SECTION */
 
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 60px;
-background:#12182b;
-}
-
-.logo{
-font-size:40px;
-font-weight:bold;
-color:#4fc3f7;
-}
-
-.nav-links a{
-color:#ccc;
-text-decoration:none;
-margin-left:25px;
-font-size:18px;
-}
-
-.nav-links a:hover{
-color:#4fc3f7;
-}
-
-.section{
-padding:60px;
-max-width:1100px;
+.hero{
+padding:80px;
+max-width:900px;
 margin:auto;
 }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+/* TITLES */
+
+.top-title{
+letter-spacing:6px;
+font-weight:300;
+color:#cfd8dc;
 }
 
-.card{
-background:#171f35;
-padding:25px;
-border-radius:10px;
-box-shadow:0 0 15px rgba(0,0,0,0.5);
+.main-title{
+font-size:70px;
+font-weight:300;
+margin:10px 0;
 }
 
-.metric{
-background:#11172a;
-padding:20px;
-border-radius:10px;
-text-align:center;
-}
-
-.metric h2{
+.intro{
 color:#4fc3f7;
-margin:0;
+letter-spacing:6px;
+margin-bottom:40px;
 }
 
-.btn{
+/* CHART LINES */
+
+.chart{
+position:relative;
+height:180px;
+margin-bottom:60px;
+border-bottom:1px solid #3c4c73;
+}
+
+.line{
+position:absolute;
+height:2px;
 background:#4fc3f7;
-color:black;
-padding:10px 20px;
-border-radius:20px;
-text-decoration:none;
-display:inline-block;
-margin-top:10px;
+}
+
+.line1{
+width:100%;
+top:40px;
+background:#3c4c73;
+}
+
+.line2{
+width:100%;
+top:80px;
+background:#3c4c73;
+}
+
+.line3{
+width:100%;
+top:120px;
+background:#3c4c73;
+}
+
+.line4{
+width:100%;
+top:160px;
+background:#3c4c73;
+}
+
+/* TEXT SECTION */
+
+.name{
+font-size:36px;
+margin-bottom:5px;
+}
+
+.role{
+letter-spacing:5px;
+color:#4fc3f7;
+margin-bottom:20px;
+}
+
+.desc{
+max-width:600px;
+line-height:1.6;
+color:#d1d9ff;
 }
