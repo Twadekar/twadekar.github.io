@@ -5,6 +5,13 @@ background:#0b0f1a;
 color:white;
 }
 
+.logo{
+font-size:42px;
+font-weight:bold;
+color:#4fc3f7;
+letter-spacing:1px;
+}
+
 nav{
 display:flex;
 justify-content:space-between;
