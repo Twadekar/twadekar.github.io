@@ -4,7 +4,63 @@ font-family:Arial,Helvetica,sans-serif;
 background:#081229;
 color:white;
 }
+/* NAVBAR */
 
+.navbar{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 80px;
+
+background:#081229;
+
+border-bottom:1px solid #2c3b63;
+
+position:sticky;
+top:0;
+z-index:1000;
+
+}
+
+.logo{
+
+font-size:22px;
+font-weight:600;
+color:#4fc3f7;
+
+}
+
+.nav-links{
+
+display:flex;
+list-style:none;
+
+}
+
+.nav-links li{
+
+margin-left:30px;
+
+}
+
+.nav-links a{
+
+text-decoration:none;
+color:#e6f1ff;
+
+font-size:16px;
+
+transition:0.3s;
+
+}
+
+.nav-links a:hover{
+
+color:#4fc3f7;
+
+}
 /* HERO SECTION */
 
 .hero{
