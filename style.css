@@ -162,3 +162,59 @@ letter-spacing:1px;
 background:#0b1738;
 
 }
+
+
+
+/* ABOUT PAGE */
+
+.about-container{
+
+background:#081229;
+color:#e6f1ff;
+padding:100px;
+
+}
+
+.about-grid{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:60px;
+
+}
+
+.about-image img{
+
+width:100%;
+border-radius:8px;
+
+}
+
+.about-content h1{
+
+font-size:40px;
+margin-bottom:20px;
+
+}
+
+.about-content p{
+
+font-size:18px;
+line-height:1.8;
+color:#c7d6ff;
+margin-bottom:20px;
+
+}
+
+.career-box{
+
+margin-top:30px;
+border:1px solid #2c3b63;
+padding:18px;
+border-radius:6px;
+
+color:#4fc3f7;
+background:#0d1835;
+
+}
