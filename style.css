@@ -58,35 +58,21 @@ color:#cbd6ff;
 /* CHART */
 
 .chart{
-
 margin-top:60px;
-
+width:100%;
 }
 
 svg{
-
 width:100%;
-
+height:250px;
 }
-
-
-/* GRID */
 
 .grid{
-
-stroke:#2b3a5c;
+stroke:#263a63;
 stroke-width:1;
-
-animation:gridFade 2s ease;
-
 }
 
-
-
-/* LINES */
-
 .line{
-
 fill:none;
 stroke-width:3;
 
@@ -94,38 +80,21 @@ stroke-dasharray:800;
 stroke-dashoffset:800;
 
 animation:drawLine 3s ease forwards;
-
 }
 
 .white{
-
 stroke:#ffffff;
-
 }
 
 .blue{
-
-stroke:#43c6ff;
-
+stroke:#49c6ff;
 }
-
-
-
-/* LINE ANIMATION */
 
 @keyframes drawLine{
-
 to{
-
 stroke-dashoffset:0;
-
 }
-
-}
-
-
-
-/* GRID ANIMATION */
+}/* GRID ANIMATION */
 
 @keyframes gridFade{
 
