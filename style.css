@@ -1,53 +1,217 @@
 body{
-font-family: 'Segoe UI', sans-serif;
+
 margin:0;
+font-family:Segoe UI;
 background:#07132a;
-color:#e6f1ff;
+color:white;
+
 }
 
-section{
-padding:80px 10%;
-animation:fadeUp 1s ease;
+
+/* HERO SECTION */
+
+.hero{
+
+padding:120px 10%;
+
+animation:fadeUp 1.5s ease;
+
 }
 
-h1{
-font-size:42px;
-margin-bottom:40px;
+
+/* TEXT */
+
+.role{
+
+letter-spacing:6px;
+color:#9bb5ff;
+font-size:14px;
+
 }
 
-h2{
-color:#5ed3ff;
+.name{
+
+font-size:60px;
+margin:10px 0;
+
 }
 
-p{
-line-height:1.7;
-color:#c9d6ff;
+.intro-title{
+
+color:#43c6ff;
+letter-spacing:5px;
+
 }
+
+
+.intro-text{
+
+max-width:600px;
+margin-top:30px;
+line-height:1.8;
+color:#cbd6ff;
+
+}
+
+
+
+/* CHART */
+
+.chart{
+
+margin-top:60px;
+
+}
+
+svg{
+
+width:100%;
+
+}
+
+
+/* GRID */
+
+.grid{
+
+stroke:#2b3a5c;
+stroke-width:1;
+
+animation:gridFade 2s ease;
+
+}
+
+
+
+/* LINES */
+
+.line{
+
+fill:none;
+stroke-width:3;
+
+stroke-dasharray:800;
+stroke-dashoffset:800;
+
+animation:drawLine 3s ease forwards;
+
+}
+
+.white{
+
+stroke:#ffffff;
+
+}
+
+.blue{
+
+stroke:#43c6ff;
+
+}
+
+
+
+/* LINE ANIMATION */
+
+@keyframes drawLine{
+
+to{
+
+stroke-dashoffset:0;
+
+}
+
+}
+
+
+
+/* GRID ANIMATION */
+
+@keyframes gridFade{
+
+0%{
+
+opacity:0;
+
+}
+
+100%{
+
+opacity:1;
+
+}
+
+}
+
+
+
+/* TEXT ANIMATION */
+
+@keyframes fadeUp{
+
+0%{
+
+opacity:0;
+transform:translateY(40px);
+
+}
+
+100%{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+
 
 /* NAVBAR */
 
 .navbar{
+
 position:fixed;
-bottom:0;
-width:100%;
-background:#081229;
+bottom:25px;
+
+left:50%;
+transform:translateX(-50%);
+
+background:#0b1d3d;
+
+padding:12px 35px;
+
+border-radius:40px;
+
 display:flex;
-justify-content:center;
-gap:40px;
-padding:18px;
-border-top:1px solid #233554;
+gap:35px;
+
+box-shadow:0 10px 40px rgba(0,0,0,0.5);
+
 }
+
 
 .navbar a{
-color:#e6f1ff;
+
+color:white;
 text-decoration:none;
-font-size:15px;
+font-size:14px;
+
 transition:.3s;
+
 }
 
+
 .navbar a:hover{
-color:#5ed3ff;
+
+color:#43c6ff;
+transform:translateY(-2px);
+
 }
+
+
+
+
 
 /* CARDS */
 
