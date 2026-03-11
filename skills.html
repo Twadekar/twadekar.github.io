@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Skills</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="skills-section">
+
+<h1 class="skills-title">
+<span class="title-text">Core Skills</span>
+</h1>
+
+<div class="skills-container">
+
+<div class="skill-card">
+<div class="icon-circle">💻</div>
+<h3><b>Programming</b></h3>
+<p>Python, SQL – data analysis, scripting, automation.</p>
+</div>
+
+<div class="skill-card">
+<div class="icon-circle">📊</div>
+<h3><b>Data Visualization</b></h3>
+<p>Power BI, Excel – dashboards and reporting.</p>
+</div>
+
+<div class="skill-card">
+<div class="icon-circle">🗄️</div>
+<h3><b>Databases</b></h3>
+<p>MySQL, PostgreSQL – joins and data extraction.</p>
+</div>
+
+<div class="skill-card">
+<div class="icon-circle">📈</div>
+<h3><b>Analysis</b></h3>
+<p>EDA, statistical analysis, data cleaning.</p>
+</div>
+
+<div class="skill-card">
+<div class="icon-circle">🧰</div>
+<h3><b>Tools & Libraries</b></h3>
+<p>Pandas, NumPy, Matplotlib, Seaborn.</p>
+</div>
+
+<div class="skill-card">
+<div class="icon-circle">🤖</div>
+<h3><b>Other Skills</b></h3>
+<p>Machine Learning basics.</p>
+</div>
+
+</div>
+
+<div class="page-navigation">
+    <a href="about.html" class="nav-btn" id="backBtn">← Back</a>
+    <a href="technical.html" class="nav-btn" id="nextBtn">Next →</a>
+</div></section>
+
+
+<script id="kbdnav">
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "ArrowRight"){
+        const next = document.getElementById("nextBtn");
+        if(next){
+            window.location.href = next.href;
+        }
+    }
+
+    if(event.key === "ArrowLeft"){
+        const back = document.getElementById("backBtn");
+        if(back){
+            window.location.href = back.href;
+        }
+    }
+
+});
+</script>
+</body>
+</html>

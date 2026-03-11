@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About | Tejaswi Wadekar</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section class="about-section">
+
+
+<div class="about-container">
+
+
+<div class="about-image">
+
+<img src="images/about.png" alt="Data Analyst Illustration">
+
+</div>
+
+
+<div class="about-content">
+
+<h1>About Me</h1>
+
+
+<p>
+
+I am a Data Analyst skilled in Python, SQL, Power BI, and Machine Learning,
+with hands-on experience in data cleaning, exploratory data analysis,
+and dashboard development. I specialize in transforming raw data
+into meaningful insights that support business decision-making.
+
+</p>
+
+
+<p>
+
+I have built real-world projects including predictive models
+and interactive dashboards, applying statistical analysis
+and visualization techniques to identify trends and patterns.
+
+I focus on delivering clear, actionable insights that improve
+performance and support data-driven strategies.
+
+</p>
+
+
+<div class="career-box">
+
+CAREER GOAL: MOVE INTO ANALYTICS ROLES THAT INFLUENCE PRODUCT AND STRATEGY
+
+</div>
+
+<div class="page-navigation">
+    <a href="index.html" class="nav-btn" id="backBtn">← Back</a>
+    <a href="skills.html" class="nav-btn" id="nextBtn">Next →</a>
+</div></section>
+
+
+<script id="kbdnav">
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "ArrowRight"){
+        const next = document.getElementById("nextBtn");
+        if(next){
+            window.location.href = next.href;
+        }
+    }
+
+    if(event.key === "ArrowLeft"){
+        const back = document.getElementById("backBtn");
+        if(back){
+            window.location.href = back.href;
+        }
+    }
+
+});
+</script>
+</body>
+</html>

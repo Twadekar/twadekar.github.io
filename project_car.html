@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Car Price Prediction Project</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section class="car-project">
+
+<h1 class="car-title">
+Project: Car Price Prediction (Machine Learning)
+</h1>
+
+
+<div class="car-container">
+
+<!-- IMAGE -->
+
+<div class="car-image">
+
+<img src="images/car-price-ml.png" alt="Car Price Prediction">
+
+<a href="https://github.com/Twadekar/DATA_SCIENCE/tree/main/Prediction%20price%20of%20Toyota%20corolla_MLR" class="car-btn">
+View Project
+</a>
+
+</div>
+
+
+<!-- TEXT -->
+
+<div class="car-content">
+
+<h3>Problem</h3>
+
+<p>
+Provide reliable used Toyota car price estimates for marketplace listings.
+</p>
+
+<h3>Dataset</h3>
+
+<p>
+Used car dataset containing features such as brand, year, mileage,
+fuel type, transmission, and selling price.
+</p>
+
+<h3>Tools</h3>
+
+<p>
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+</p>
+
+<h3>Key Steps</h3>
+
+<ul>
+
+<li>Feature engineering (age, log-mileage, encoded categorical variables)</li>
+
+<li>Model training using regression models</li>
+
+<li>Model evaluation using RMSE and R²</li>
+
+</ul>
+
+<h3>Impact</h3>
+
+<p>
+Achieved R² score of 0.82 indicating strong predictive performance.
+</p>
+
+</div>
+
+</div>
+
+<div class="page-navigation">
+    <a href="project_customer.html" class="nav-btn" id="backBtn">← Back</a>
+    <a href="heart_project.html" class="nav-btn" id="nextBtn">Next →</a>
+</div></section>
+
+
+<script id="kbdnav">
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "ArrowRight"){
+        const next = document.getElementById("nextBtn");
+        if(next){
+            window.location.href = next.href;
+        }
+    }
+
+    if(event.key === "ArrowLeft"){
+        const back = document.getElementById("backBtn");
+        if(back){
+            window.location.href = back.href;
+        }
+    }
+
+});
+</script>
+</body>
+</html>

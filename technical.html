@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Technical Proficiency</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="technical-page">
+
+<section class="technical-section">
+
+<h1 class="title">Technical Proficiency</h1>
+
+<div class="technical-container">
+
+<!-- GRAPH -->
+
+<div class="chart">
+
+<div class="chart-row">
+<span class="skill">Python</span>
+<div class="bar-bg">
+<div class="bar python"></div>
+</div>
+</div>
+
+<div class="chart-row">
+<span class="skill">SQL</span>
+<div class="bar-bg">
+<div class="bar sql"></div>
+</div>
+</div>
+
+<div class="chart-row">
+<span class="skill">Power BI</span>
+<div class="bar-bg">
+<div class="bar powerbi"></div>
+</div>
+</div>
+
+<div class="chart-row">
+<span class="skill">Excel</span>
+<div class="bar-bg">
+<div class="bar excel"></div>
+</div>
+</div>
+
+<div class="chart-row">
+<span class="skill">Pandas</span>
+<div class="bar-bg">
+<div class="bar pandas"></div>
+</div>
+</div>
+
+<div class="chart-row">
+<span class="skill">Tableau</span>
+<div class="bar-bg">
+<div class="bar tableau"></div>
+</div>
+</div>
+
+
+
+<!-- AXIS -->
+
+<div class="axis">
+
+<span>0</span>
+<span>10</span>
+<span>20</span>
+<span>30</span>
+<span>40</span>
+<span>50</span>
+<span>60</span>
+<span>70</span>
+<span>80</span>
+<span>90</span>
+
+</div>
+
+</div>
+
+
+<!-- RIGHT SIDE -->
+
+<div class="skills-info">
+
+<div class="info-box">
+<h3>Data Cleaning</h3>
+<p>Standardized pipelines, missing-value strategies, validation tests.</p>
+</div>
+
+<div class="info-box">
+<h3>EDA & Modeling</h3>
+<p>Exploratory data analysis, feature engineering, and building predictive models.</p>
+</div>
+
+<div class="info-box">
+<h3>Dashboarding</h3>
+<p>Building interactive dashboards in Power BI and Tableau with actionable insights.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="page-navigation">
+    <a href="skills.html" class="nav-btn" id="backBtn">← Back</a>
+    <a href="project_customer.html" class="nav-btn" id="nextBtn">Next →</a>
+</div></section>
+
+
+<script id="kbdnav">
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "ArrowRight"){
+        const next = document.getElementById("nextBtn");
+        if(next){
+            window.location.href = next.href;
+        }
+    }
+
+    if(event.key === "ArrowLeft"){
+        const back = document.getElementById("backBtn");
+        if(back){
+            window.location.href = back.href;
+        }
+    }
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Customer Shopping Behaviour Project</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section class="project-section">
+
+<h1 class="project-title">
+Project: Customer Shopping Behaviour
+</h1>
+
+<div class="project-container">
+
+<!-- IMAGE SIDE -->
+
+<div class="project-image">
+
+<img src="images/customer-analytics.png" alt="Shopping Dashboard">
+
+<a href="https://github.com/Twadekar/Data_ANALYSIS/tree/main/Customer_Shopping_Behaviour_Analysis" class="github-btn">
+View Project
+</a>
+
+</div>
+
+
+<!-- TEXT SIDE -->
+
+<div class="project-content">
+
+<h3>Problem</h3>
+
+<p>
+Business needed insights into customer purchasing patterns, sales trends, and product performance to support data-driven decisions.
+</p>
+
+<h3>Dataset</h3>
+
+<p>
+Sales transaction dataset containing customer details, product categories, order dates, quantity, and revenue.
+</p>
+
+<h3>Tools</h3>
+
+<p>
+Python, SQL, Power BI
+</p>
+
+<h3>Key Steps</h3>
+
+<ul>
+
+<li>Cleaned and preprocessed raw sales data using Python and Pandas</li>
+
+<li>Performed EDA to identify trends and patterns</li>
+
+<li>Analyzed customer behavior and product performance</li>
+
+<li>Created interactive Power BI dashboard to visualize KPIs and sales trends</li>
+
+<li>Used SQL queries to extract and aggregate relevant data</li>
+
+</ul>
+
+<h3>Impact</h3>
+
+<p>
+Identified top-performing products, peak sales periods, and customer purchase patterns, helping improve business decision-making and sales strategy.
+</p>
+
+</div>
+
+</div>
+<div class="page-navigation">
+    <a href="technical.html" class="nav-btn" id="backBtn">← Back</a>
+    <a href="project_car.html" class="nav-btn" id="nextBtn">Next →</a>
+</div></section>
+
+
+<script id="kbdnav">
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "ArrowRight"){
+        const next = document.getElementById("nextBtn");
+        if(next){
+            window.location.href = next.href;
+        }
+    }
+
+    if(event.key === "ArrowLeft"){
+        const back = document.getElementById("backBtn");
+        if(back){
+            window.location.href = back.href;
+        }
+    }
+
+});
+</script>
+</body>
+</html>

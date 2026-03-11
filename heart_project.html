@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Car Price Prediction Project</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<section class="heart-project">
+
+<h1 class="heart-title">
+Project: Heart Disease Prediction Analysis
+</h1>
+
+<div class="heart-container">
+
+<div class="heart-image">
+
+<img src="images/heart-prediction.png" alt="Heart Disease Prediction">
+
+<a href="https://github.com/Twadekar/DATA_SCIENCE/tree/main/Heart_Disease_Prediction" class="heart-btn">
+View Project
+</a>
+
+</div>
+
+
+<div class="heart-content">
+
+<h3>Problem</h3>
+
+<p>
+Identify high-risk patients of Heart Disease for early screening and preventive care triage.
+</p>
+
+
+<h3>Dataset</h3>
+
+<p>
+Heart disease dataset containing patient features such as age, chest pain type,
+blood pressure, cholesterol, heart rate, and other clinical parameters (~300+ records).
+</p>
+
+
+<h3>Tools</h3>
+
+<p>
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+</p>
+
+
+<h3>Key Steps</h3>
+
+<ul>
+
+<li>Cleaned and preprocessed dataset</li>
+
+<li>Performed exploratory data analysis to understand feature relationships</li>
+
+<li>Built Decision Tree and Random Forest classification models</li>
+
+<li>Evaluated model performance using accuracy and classification metrics</li>
+
+<li>Identified key features influencing heart disease prediction</li>
+
+</ul>
+
+
+<h3>Key Insights</h3>
+
+<p>
+Identified important risk factors such as chest pain type, cholesterol level,
+and maximum heart rate. Built classification models to support early risk detection
+and healthcare analytics.
+</p>
+
+</div>
+
+</div>
+
+<div class="page-navigation">
+    <a href="project_car.html" class="nav-btn" id="backBtn">← Back</a>
+    <a href="certificate.html" class="nav-btn" id="nextBtn">Next →</a>
+</div></section>
+
+
+<script id="kbdnav">
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "ArrowRight"){
+        const next = document.getElementById("nextBtn");
+        if(next){
+            window.location.href = next.href;
+        }
+    }
+
+    if(event.key === "ArrowLeft"){
+        const back = document.getElementById("backBtn");
+        if(back){
+            window.location.href = back.href;
+        }
+    }
+
+});
+</script>
+</body>
+</html>
